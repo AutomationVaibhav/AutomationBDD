@@ -83,9 +83,6 @@
 
 - **Cucumber JSON & HTML** reports are generated on every run.
 - **Jenkins Cucumber Reports plugin** parses the JSON and shows interactive, filterable results in the UI.
-- Example report screenshot:
-
-    ![Sample Cucumber Report](docs/sample-cucumber-report.png)
 
 ---
 
