@@ -1,5 +1,5 @@
-package org.example.Pages;
-import org.example.Base.BasePage;
+package org.autoenterprise.plugin.Pages;
+import org.autoenterprise.core.BasePage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
