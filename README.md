@@ -11,11 +11,17 @@ It separates concerns into **Core**, **Plugin**, and **Test** layers, while pers
 
 ## 📦 Project Structure
 automation-framework/
+
 ├─ core-layer/ # Framework engine (drivers, hooks, MongoDB, logging, reporting)
+
 ├─ plugin-layer/ # Application logic (Page Objects, reusable Step Definitions)
+
 └─ test-layer/ # Feature files, Runners, Reports (with submodules for different suites)
+
 ├─ Flipkart/
+
 ├─ Amazon/
+
 └─ etc
 ---
 
@@ -82,19 +88,20 @@ Browser: Chrome (drivers auto-managed by WebDriverManager)
 ## 🏗️ Quick Start
 
 # Core layer
-[git clone https://github.com/<your-org>/core-layer.git](https://github.com/AutomationVaibhav/CoreLayer.git)
+git clone 
+(https://github.com/AutomationVaibhav/CoreLayer.git)
 cd core-layer
 mvn clean install
 
 # Plugin layer
-[git clone https://github.com/<your-org>/plugin-layer.git
-](https://github.com/AutomationVaibhav/PluginLayer.git)
+git clone
+(https://github.com/AutomationVaibhav/PluginLayer.git)
   cd plugin-layer
 mvn clean install
 
 # Test layer
-[git clone https://github.com/<your-org>/test-layer.git
-](https://github.com/AutomationVaibhav/TestLayer.git)
+git clone 
+(https://github.com/AutomationVaibhav/TestLayer.git)
 cd test-layer
 mvn clean install
 
@@ -105,6 +112,7 @@ mvn clean install
 ## ✨ Run Test
 
 cd test-layer/Flipkart
+
 mvn clean test -Dcucumber.tags="@Login"
 
 
