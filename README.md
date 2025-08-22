@@ -18,11 +18,11 @@ automation-framework/
 
 └─ test-layer/ # Feature files, Runners, Reports (with submodules for different suites)
 
-├─ Flipkart/
+   ├─ Flipkart/
 
-├─ Amazon/
+   ├─ Amazon/
 
-└─ etc
+   └─ etc
 ---
 
 
