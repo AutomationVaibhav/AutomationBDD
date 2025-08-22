@@ -90,19 +90,25 @@ Browser: Chrome (drivers auto-managed by WebDriverManager)
 # Core layer
 git clone 
 (https://github.com/AutomationVaibhav/CoreLayer.git)
+
 cd core-layer
+
 mvn clean install
 
 # Plugin layer
 git clone
 (https://github.com/AutomationVaibhav/PluginLayer.git)
-  cd plugin-layer
+
+cd plugin-layer
+  
 mvn clean install
 
 # Test layer
 git clone 
 (https://github.com/AutomationVaibhav/TestLayer.git)
+
 cd test-layer
+
 mvn clean install
 
 
